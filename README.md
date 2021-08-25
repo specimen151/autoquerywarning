@@ -1,23 +1,7 @@
-# empty
+This is just used for a bug report. (I think it's a bug at least)
 
-.NET 5.0 Empty Web Single Project Template
+I did not include the Northwind database, as it just makes the repo bigger.
+Get it with:
 
-[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/web.png)](http://web.web-templates.io/)
+    x mix northwind.sqlite
 
-> Browse [source code](https://github.com/NetCoreTemplates/empty), view live demo [web.web-templates.io](http://web.web-templates.io) and install with [dotnet-new](https://docs.servicestack.net/dotnet-new):
-
-    $ dotnet tool install -g x
-
-    $ x new empty ProjectName
-
-Alternatively write new project files directly into an empty repository, using the Directory Name as the ProjectName:
-
-    $ git clone https://github.com/<User>/<ProjectName>.git
-    $ cd <ProjectName>
-    $ x new empty
-
-### Update Server TypeScript DTOs
-
-Run the dtos package.json script to update your server dtos:
-
-    $ x scripts dtos
